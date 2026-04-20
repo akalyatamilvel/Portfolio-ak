@@ -109,7 +109,7 @@ const HeroSection = () => {
               View Projects
             </a>
             <a
-              href="#"
+              href="/resume.pdf"
               className="px-6 py-3 rounded-lg border border-primary/30 text-primary font-semibold hover:bg-primary/10 transition-all duration-300 flex items-center gap-2"
             >
               <Download size={16} />

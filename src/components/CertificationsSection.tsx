@@ -7,6 +7,7 @@ const certs = [
   "AWS Foundations of Prompt Engineering",
   "UiPath Automation Development",
   "Accenture Data Analytics and Visualization",
+  "IBM Getting Started with Artificial Intelligence"
 ];
 
 const CertificationsSection = () => {

@@ -32,13 +32,40 @@ const EducationSection = () => {
             </div>
             <div>
               <h3 className="text-xl font-bold text-foreground mb-1">
-                SRM Institute of Science and Technology
+                SRM Institute of Science and Technology, Tiruchirappalli
               </h3>
               <p className="text-primary font-mono text-sm mb-2">
                 B.Tech CSE – Artificial Intelligence and Machine Learning
               </p>
               <p className="text-muted-foreground text-sm">
                 CGPA: <span className="text-foreground font-semibold">9.03</span>
+              </p>
+            </div>
+          </div>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="glass rounded-xl p-8 glow-border gradient-border"
+        >
+          <div className="flex items-start gap-4">
+            <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
+              <GraduationCap size={28} className="text-primary" />
+            </div>
+            <div>
+              <h3 className="text-xl font-bold text-foreground mb-1">
+                Dalmia Vidya Mandir, Dalmiapuram, Tiruchirappalli
+              </h3>
+              <p className="text-primary font-mono text-sm mb-2">
+                
+              </p>
+              <p className="text-muted-foreground text-sm">
+                10th: <span className="text-foreground font-semibold">91.3% </span>
+              </p>
+              <p className="text-muted-foreground text-sm">
+                12th: <span className="text-foreground font-semibold">74.4%</span>
               </p>
             </div>
           </div>
