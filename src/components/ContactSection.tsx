@@ -3,13 +3,13 @@ import { useRef } from "react";
 import { Mail, Phone, Github, Linkedin, Code, Trophy, Terminal } from "lucide-react";
 
 const links = [
-  { icon: Mail, label: "Email", href: "mailto:akalya@example.com", text: "akalya@example.com" },
-  { icon: Phone, label: "Phone", href: "tel:+910000000000", text: "+91 XXXXXXXXXX" },
-  { icon: Github, label: "GitHub", href: "https://github.com/", text: "github.com/akalya" },
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/", text: "linkedin.com/in/akalya" },
-  { icon: Code, label: "LeetCode", href: "https://leetcode.com/", text: "leetcode.com/akalya" },
-  { icon: Trophy, label: "CodeChef", href: "https://codechef.com/", text: "codechef.com/akalya" },
-  { icon: Terminal, label: "HackerRank", href: "https://hackerrank.com/", text: "hackerrank.com/akalya" },
+  { icon: Mail, label: "Email", href: "mailto:akalyatamilvel@gmail.com", text: "akalyatamilvel@gmail.com" },
+  { icon: Phone, label: "Phone", href: "tel:+919500211963", text: "+91 9500211963" },
+  { icon: Github, label: "GitHub", href: "https://github.com/akalyatamilvel/" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/akalyats/"},
+  { icon: Code, label: "LeetCode", href: "https://leetcode.com/u/akalya_tamilvel/"},
+  { icon: Trophy, label: "CodeChef", href: "https://www.codechef.com/users/akalyatamilvel"},
+  { icon: Terminal, label: "HackerRank", href: "https://www.hackerrank.com/profile/akalyatamilvel"},
 ];
 
 const ContactSection = () => {

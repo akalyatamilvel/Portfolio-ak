@@ -32,7 +32,7 @@ const ExperienceSection = () => {
               <Briefcase size={18} className="text-primary" />
               <h3 className="text-lg font-bold text-foreground">Node.js Intern</h3>
             </div>
-            <p className="text-primary font-mono text-sm mb-3">Sparkout Tech Solutions</p>
+            <p className="text-primary font-mono text-sm mb-3">Sparkout Tech Solutions, Coimbatore, Tamil Nadu</p>
             <p className="text-muted-foreground text-sm leading-relaxed">
               Built real-time APIs using Node.js and MongoDB and collaborated with development teams using Git.
             </p>

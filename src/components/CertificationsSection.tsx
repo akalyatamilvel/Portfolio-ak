@@ -27,7 +27,7 @@ const CertificationsSection = () => {
           <div className="w-16 h-1 bg-primary rounded mb-10" />
         </motion.div>
 
-        <div className="grid sm:grid-cols-2 gap-4">
+        <div className="grid sm:grid-cols-4 gap-4">
           {certs.map((cert, i) => (
             <motion.div
               key={cert}

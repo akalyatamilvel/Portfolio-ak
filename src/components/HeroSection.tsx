@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 import { ArrowDown, Download, Mail, Brain, Cpu, Database, Code2, Zap, Network } from "lucide-react";
 
 const floatingIcons = [
-  { Icon: Brain, x: "10%", y: "20%", delay: 0, duration: 5 },
-  { Icon: Cpu, x: "85%", y: "15%", delay: 1, duration: 7 },
-  { Icon: Database, x: "75%", y: "70%", delay: 2, duration: 6 },
-  { Icon: Code2, x: "15%", y: "75%", delay: 0.5, duration: 8 },
-  { Icon: Zap, x: "50%", y: "10%", delay: 1.5, duration: 5.5 },
-  { Icon: Network, x: "90%", y: "50%", delay: 3, duration: 7 },
+  { Icon: Brain, x: "10%", y: "20%", delay: 1, duration: 1 },
+  { Icon: Cpu, x: "85%", y: "15%", delay: 1, duration: 1 },
+  { Icon: Database, x: "75%", y: "70%", delay: 2, duration: 1 },
+  { Icon: Code2, x: "15%", y: "75%", delay: 1, duration: 1 },
+  { Icon: Zap, x: "50%", y: "10%", delay: 1.5, duration: 1 },
+  { Icon: Network, x: "90%", y: "50%", delay: 3, duration: 1 },
 ];
 
 const titles = [
