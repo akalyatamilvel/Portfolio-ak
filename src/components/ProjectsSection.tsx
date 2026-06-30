@@ -100,7 +100,7 @@ const ProjectsSection = () => {
             </p>
 
             <div className="flex flex-wrap gap-2">
-              {["PyTorch", "Vision Transformers (ViT)", "Deep learning", "Computer Vision", "ISIC 2019 dataset"].map((tech) => (
+              {["PyTorch", "Vision Transformers (ViT)", "Deep learning", "Computer Vision", "Grad-CAM", "ISIC 2019 dataset"].map((tech) => (
                 <span
                   key={tech}
                   className="px-3 py-1 rounded-full text-xs font-mono bg-primary/10 text-primary border border-primary/20"
@@ -125,13 +125,13 @@ const ProjectsSection = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
-                    Skin Leision Classification using Vision Transformers and CNN
+                    Explainable AI for Loan Approval Prediction
                   </h3>
                   <p className="text-xs text-muted-foreground font-mono mt-1">Academic  Project</p>
                 </div>
               </div>
               <a
-                href="https://github.com/sachitha07/skin-lesion-analyzer"
+                href="https://github.com/akalyatamilvel/Loan-Approval-Prediction-App"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -141,11 +141,12 @@ const ProjectsSection = () => {
             </div>
 
             <p className="text-muted-foreground leading-relaxed mb-6">
-              An AI-powered skin lesion classification system using Vision Transformers (ViT) and CNN to assist in early skin disease detection with high accuracy and explainable predictions.
+              Developed an Explainable AI-powered loan approval prediction system using
+      Google Cloud Vertex AI to provide transparent and interpretable decisions.
             </p>
 
             <div className="flex flex-wrap gap-2">
-              {["PyTorch", "Vision Transformers (ViT)", "Deep learning", "Computer Vision", "ISIC 2019 dataset"].map((tech) => (
+              {["Python", "Google Cloud Vertex AI", "Machine learning", "Explainable AI", "Scikit-learn", "Pandas"].map((tech) => (
                 <span
                   key={tech}
                   className="px-3 py-1 rounded-full text-xs font-mono bg-primary/10 text-primary border border-primary/20"
