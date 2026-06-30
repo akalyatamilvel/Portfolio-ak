@@ -5,7 +5,7 @@ const skillCategories = [
   {
     title: "Programming",
     skills: [
-      { name: "C", level: 80 },
+      { name: "C", level: 50 },
       { name: "Java", level: 75 },
       { name: "Python", level: 85 },
     ],
@@ -13,9 +13,9 @@ const skillCategories = [
   {
     title: "Technologies",
     skills: [
-      { name: "Node.js", level: 85 },
+      { name: "Node.js", level: 75 },
       { name: "MongoDB", level: 80 },
-      { name: "Google Cloud", level: 70 },
+      { name: "Google Cloud", level: 80 },
       { name: "Docker", level: 65 },
       { name: "GitHub", level: 90 },
     ],

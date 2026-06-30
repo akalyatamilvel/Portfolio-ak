@@ -24,7 +24,7 @@ const AboutSection = () => {
             <div className="md:col-span-2">
               <p className="text-muted-foreground leading-relaxed text-base md:text-lg">
                 I am a B.Tech Computer Science Engineering student specializing in Artificial Intelligence
-                and Machine Learning at SRM Institute of Science and Technology, Trichy with a CGPA of 9.03.
+                and Machine Learning at SRM Institute of Science and Technology, Trichy with a CGPA of 9.1.
                 I enjoy designing intelligent applications, exploring human–AI interaction, and building
                 scalable software systems.
               </p>
@@ -32,7 +32,7 @@ const AboutSection = () => {
 
             <div className="flex flex-col gap-4">
               {[
-                { icon: GraduationCap, label: "CGPA 9.03", sub: "SRM IST, Trichy" },
+                { icon: GraduationCap, label: "CGPA 9.1", sub: "SRM IST, Trichy" },
                 { icon: Sparkles, label: "AI & ML", sub: "Specialization" },
                 { icon: Code, label: "Full Stack", sub: "Web Development" },
               ].map(({ icon: Icon, label, sub }, i) => (
